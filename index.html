@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MEXC Global confessed to Fair Price manipulation. Complete evidence, regulatory confirmations, and timeline of the fraud.">
-    <meta name="keywords" content="MEXC, crypto fraud, Fair Price manipulation, whistleblower, Cora.h confession">
-    <title>MEXC Fair Price Manipulation Exposed | Official Evidence</title>
+    <meta name="description" content="MEXC Exchange Fair Price Manipulation - Documented evidence of systematic fraud with written agent confession">
+    <meta name="keywords" content="MEXC fraud, crypto manipulation, fair price scam, MEXC Global, whistleblower">
+    <title>MEXC Fair Price Manipulation Evidence | Whistleblower Report</title>
     <style>
         * {
             margin: 0;
@@ -14,205 +14,266 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #2d3748;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
+            padding: 20px;
         }
         
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
         }
         
         header {
-            background: rgba(255, 255, 255, 0.98);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-            margin-bottom: 30px;
+            background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
+            color: white;
+            padding: 40px;
             text-align: center;
         }
         
         h1 {
-            color: #d32f2f;
             font-size: 2.5em;
-            margin-bottom: 15px;
-            font-weight: 800;
-        }
-        
-        .alert {
-            background: #fff3cd;
-            border-left: 5px solid #ffc107;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-        }
-        
-        .smoking-gun {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            color: white;
-            padding: 40px;
-            border-radius: 15px;
-            margin: 30px 0;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
-        }
-        
-        .smoking-gun h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
         
-        .evidence-box {
-            background: white;
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+        
+        .alert-banner {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            margin: 20px 40px;
+            border-radius: 5px;
+        }
+        
+        .alert-banner strong {
+            color: #856404;
+            font-size: 1.1em;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            background: #f8f9fa;
             padding: 30px;
             border-radius: 15px;
-            margin: 20px 0;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-        }
-        
-        .evidence-box h3 {
-            color: #667eea;
-            margin-bottom: 15px;
-            font-size: 1.5em;
-        }
-        
-        .quote {
-            background: #f8f9fa;
             border-left: 5px solid #667eea;
-            padding: 20px;
-            margin: 20px 0;
-            font-style: italic;
-            border-radius: 5px;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin: 20px 0 10px 0;
+            font-size: 1.3em;
         }
         
         .timeline {
             background: white;
-            padding: 30px;
-            border-radius: 15px;
+            padding: 20px;
+            border-radius: 10px;
             margin: 20px 0;
         }
         
         .timeline-item {
+            padding: 15px;
             border-left: 3px solid #667eea;
-            padding-left: 25px;
-            margin-bottom: 30px;
-            position: relative;
-        }
-        
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            left: -8px;
-            top: 0;
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-            background: #667eea;
+            margin-left: 20px;
+            margin-bottom: 15px;
+            background: #f8f9fa;
+            border-radius: 5px;
         }
         
         .timeline-date {
             font-weight: bold;
             color: #667eea;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
         
-        .stats {
+        .evidence-box {
+            background: #fff;
+            border: 2px solid #e63946;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .confession-quote {
+            background: #ffe5e5;
+            border-left: 5px solid #e63946;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-style: italic;
+            font-size: 1.1em;
+        }
+        
+        .numbers-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
-            margin: 30px 0;
+            margin: 20px 0;
         }
         
         .stat-box {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 30px;
-            border-radius: 15px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
             text-align: center;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         
         .stat-number {
-            font-size: 3em;
+            font-size: 2.5em;
             font-weight: bold;
+            color: #e63946;
             margin-bottom: 10px;
         }
         
         .stat-label {
-            font-size: 1.1em;
-            opacity: 0.9;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        
+        .regulators-list {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .regulator-item {
+            padding: 15px;
+            margin-bottom: 10px;
+            background: #e8f4f8;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .status-badge {
+            background: #28a745;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px 0;
         }
         
         .cta-button {
-            display: inline-block;
-            background: #d32f2f;
-            color: white;
-            padding: 15px 40px;
-            border-radius: 30px;
+            padding: 15px 30px;
+            border-radius: 50px;
             text-decoration: none;
             font-weight: bold;
-            margin: 10px;
-            transition: transform 0.3s;
-            box-shadow: 0 5px 15px rgba(211, 47, 47, 0.4);
+            font-size: 1.1em;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
         
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(211, 47, 47, 0.6);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
         }
         
-        .regulatory-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
+        .btn-primary {
+            background: #e63946;
+            color: white;
         }
         
-        .regulatory-card {
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            border-top: 4px solid #4caf50;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        .btn-success {
+            background: #28a745;
+            color: white;
         }
         
-        .regulatory-card h4 {
-            color: #4caf50;
-            margin-bottom: 10px;
+        .btn-info {
+            background: #17a2b8;
+            color: white;
         }
         
         footer {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 30px;
-            border-radius: 15px;
-            margin-top: 30px;
+            background: #2d3748;
+            color: white;
+            padding: 40px;
             text-align: center;
         }
         
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .contact-info {
+            background: white;
+            color: #2d3748;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .contact-info h2 {
+            color: #667eea;
+            justify-content: center;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #2d3748;
+        }
+        
         .disclaimer {
-            background: #e3f2fd;
-            border: 1px solid #2196f3;
+            background: #e9ecef;
             padding: 20px;
             border-radius: 10px;
-            margin: 20px 0;
+            margin-top: 30px;
             font-size: 0.9em;
-        }
-        
-        code {
-            background: #f5f5f5;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-family: 'Courier New', monospace;
-        }
-        
-        .highlight {
-            background: yellow;
-            padding: 2px 5px;
-            font-weight: bold;
+            color: #6c757d;
+            line-height: 1.8;
         }
         
         @media (max-width: 768px) {
@@ -220,8 +281,21 @@
                 font-size: 1.8em;
             }
             
-            .stat-number {
-                font-size: 2em;
+            .content {
+                padding: 20px;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+            }
+            
+            .cta-button {
+                width: 100%;
+                justify-content: center;
             }
         }
     </style>
@@ -229,336 +303,205 @@
 <body>
     <div class="container">
         <header>
-            <h1>🚨 MEXC FAIR PRICE MANIPULATION EXPOSED</h1>
-            <p style="font-size: 1.3em; color: #666; margin-top: 10px;">
-                Official Evidence | Regulatory Confirmations | Complete Timeline
-            </p>
-            <p style="margin-top: 15px; font-weight: bold;">
-                Published by: <span style="color: #667eea;">Dany Gosset</span> | Belgian Whistleblower | October 1, 2025
-            </p>
+            <h1>🚨 MEXC Fair Price Manipulation Exposed</h1>
+            <p class="subtitle">Documented Evidence with Written Agent Confession</p>
         </header>
 
-        <div class="alert">
-            <strong>⚠️ CRITICAL WARNING:</strong> MEXC Global has confessed in writing to manipulating their Fair Price calculation, causing systematic liquidations of trader positions. This page presents irrefutable evidence obtained through official correspondence.
+        <div class="alert-banner">
+            <strong>⚠️ REGULATORY ALERT:</strong> This case is currently under investigation by the Financial Conduct Authority (FCA - UK), Ontario Securities Commission (OSC - Canada), and Financial Services and Markets Authority (FSMA - Belgium).
         </div>
 
-        <div class="smoking-gun">
-            <h2>🔥 THE SMOKING GUN: MEXC's Written Confession</h2>
-            <p style="font-size: 1.2em; margin-bottom: 20px;">
-                On September 28, 2025, MEXC Agent <strong>Cora.h</strong> admitted in writing that MEXC used <strong>circular logic</strong> to calculate Fair Price, making liquidations impossible to avoid.
-            </p>
-            
-            <div class="quote">
-                <p style="font-size: 1.15em; color: #333;">
-                    "Allow us to clarify: on 2025-09-19, for STBL_USDT, <span class="highlight">the Index Price primarily referenced data from MEXC</span>."
-                </p>
-                <p style="margin-top: 15px; font-weight: bold; color: #333;">
-                    — Agent Cora.h, MEXC Customer Service, September 28, 2025, 16:41 UTC
-                </p>
+        <div class="content">
+            <div class="section">
+                <h2>📊 The Numbers Don't Lie</h2>
+                <div class="numbers-grid">
+                    <div class="stat-box">
+                        <div class="stat-number">€235</div>
+                        <div class="stat-label">Direct Loss from Manipulation</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">$20</div>
+                        <div class="stat-label">MEXC's "Compensation" Offer</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">8%</div>
+                        <div class="stat-label">Percentage of Loss Offered</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">International Regulators Investigating</div>
+                    </div>
+                </div>
             </div>
-            
-            <p style="font-size: 1.1em; margin-top: 20px;">
-                <strong>Translation:</strong> MEXC used their OWN spot prices to calculate the "Fair Price" used for liquidations. This creates a <strong>self-referencing loop</strong> where MEXC controls both sides of the equation.
-            </p>
-        </div>
 
-        <div class="stats">
-            <div class="stat-box">
-                <div class="stat-number">231</div>
-                <div class="stat-label">USDT Lost in 55 Seconds</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-number">128+</div>
-                <div class="stat-label">Pips Deviation from Global Markets</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-number">$20</div>
-                <div class="stat-label">MEXC's Insulting "Settlement" Offer</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-number">9</div>
-                <div class="stat-label">Regulatory Authorities Investigating</div>
-            </div>
-        </div>
-
-        <div class="evidence-box">
-            <h3>📧 THE INSULT: MEXC's $20 "Goodwill Gesture"</h3>
-            <p>After confessing to price manipulation, MEXC Agent <strong>Florence</strong> offered:</p>
-            
-            <div class="quote">
-                <p style="color: #333;">
-                    "However, to enhance your trading experience, we would like to offer you an additional <strong>20 USDT</strong> in futures bonus as a gesture of goodwill."
-                </p>
-                <p style="margin-top: 10px; font-weight: bold; color: #333;">
-                    — Agent Florence, MEXC Customer Service, September 29, 2025
-                </p>
-            </div>
-            
-            <p style="margin-top: 20px; font-size: 1.1em;">
-                <strong>The Math:</strong>
-            </p>
-            <ul style="margin-left: 30px; margin-top: 10px; font-size: 1.05em;">
-                <li>My documented losses + investigation costs: <strong>€20,000</strong></li>
-                <li>MEXC's offer: <strong>$20</strong></li>
-                <li>That's <strong>0.1%</strong> of actual damages</li>
-            </ul>
-            
-            <p style="margin-top: 20px; color: #d32f2f; font-weight: bold; font-size: 1.15em;">
-                This is not a settlement. This is an insult designed to make victims go away.
-            </p>
-        </div>
-
-        <div class="evidence-box">
-            <h3>⚖️ REGULATORY CONFIRMATIONS (9 Authorities)</h3>
-            
-            <div class="regulatory-grid">
-                <div class="regulatory-card">
-                    <h4>🇨🇦 OSC Canada</h4>
-                    <p><strong>Case:</strong> CAS-34276-C0X7F7</p>
-                    <p><strong>Status:</strong> Confirmed</p>
-                    <p>"<em>MEXC is not registered to deal in securities in Ontario or any other province in Canada.</em>"</p>
+            <div class="section">
+                <h2>🎯 What Happened</h2>
+                <p>On September 19, 2025, MEXC Global liquidated my futures position using a manipulated "Fair Price" that deviated 128+ pips from all other major exchanges (Binance, OKX, Gate.io). After weeks of investigation and correspondence with multiple MEXC agents, one agent accidentally revealed the truth in writing.</p>
+                
+                <div class="confession-quote">
+                    <strong>Agent Cora.h (September 28, 2025, 16:41:06 UTC):</strong><br>
+                    "Allow us to clarify: on 2025-09-19, for STBL_USDT, the <strong>Index Price primarily referenced data from MEXC</strong>."
                 </div>
                 
-                <div class="regulatory-card">
-                    <h4>🇬🇧 FCA UK</h4>
-                    <p><strong>Cases:</strong> #211834872, #211840632, #211841810</p>
-                    <p><strong>Status:</strong> Under Investigation</p>
-                    <p>"<em>Referred to appropriate team for investigation.</em>"</p>
-                </div>
-                
-                <div class="regulatory-card">
-                    <h4>🇧🇪 FSMA Belgium</h4>
-                    <p><strong>Status:</strong> Primary Jurisdiction</p>
-                    <p>As I am a Belgian citizen, FSMA has primary regulatory authority over MEXC's operations affecting me.</p>
-                </div>
-                
-                <div class="regulatory-card">
-                    <h4>🌍 6 Additional Regulators</h4>
-                    <p>Complaints filed with:</p>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>SEC (USA)</li>
-                        <li>CFTC (USA)</li>
-                        <li>AMF (France)</li>
-                        <li>BaFin (Germany)</li>
-                        <li>CONSOB (Italy)</li>
-                        <li>CNMV (Spain)</li>
-                    </ul>
-                </div>
+                <p><strong>Translation:</strong> MEXC used their own exchange prices to calculate the "Fair Price" that triggers liquidations. This creates a circular logic allowing them to manipulate liquidations at will.</p>
             </div>
-        </div>
 
-        <div class="timeline">
-            <h2 style="text-align: center; color: #667eea; margin-bottom: 30px;">📅 COMPLETE TIMELINE</h2>
-            
-            <div class="timeline-item">
-                <div class="timeline-date">September 19, 2025 - 09:40 UTC</div>
-                <p><strong>THE FRAUD:</strong> My STBL_USDT position liquidated at Fair Price <code>0.24487 USDT</code></p>
-                <p><strong>Global Markets:</strong> Binance, OKX, TradingView all showing <code>0.2355-0.2385 USDT</code></p>
-                <p><strong>Deviation:</strong> 128+ pips above real market price</p>
+            <div class="section">
+                <h2>📅 Complete Timeline</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">September 19, 2025 - 09:40 UTC</div>
+                        <div>Position liquidated at manipulated Fair Price of 0.24716 USDT while global market price was 0.2355-0.2385 USDT</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">September 21-27, 2025</div>
+                        <div>5 different MEXC agents provided contradictory explanations about Fair Price calculation</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">September 26, 2025</div>
+                        <div>MEXC secretly modified their Index Price system AFTER my complaint</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">September 28, 2025 - 16:41 UTC</div>
+                        <div><strong>Agent Cora.h accidentally confesses manipulation in writing</strong></div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">September 29, 2025 - 18:08 UTC</div>
+                        <div>MEXC offers insulting $20 USDT as "goodwill gesture" for €235 loss</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">September 29, 2025 - 18:52 UTC</div>
+                        <div>New agent (Frodo) takes over, denies everything previously stated</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">September 30 - October 1, 2025</div>
+                        <div>Evidence submitted to FCA, OSC, and FSMA. Official case numbers received.</div>
+                    </div>
+                </div>
             </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-date">September 20-25, 2025</div>
-                <p><strong>THE RUNAROUND:</strong> 5 different MEXC agents gave contradictory explanations:</p>
-                <ul style="margin-left: 20px; margin-top: 10px;">
-                    <li><strong>Agent 1:</strong> "Index Price includes MEXC, GATEIO, KUCOIN"</li>
-                    <li><strong>Agent 2:</strong> "We use Binance prices"</li>
-                    <li><strong>Agent 3:</strong> "All exchanges operate independently"</li>
-                    <li><strong>Agent 4:</strong> "Market volatility caused this"</li>
-                    <li><strong>Agent 5:</strong> "No abnormalities detected"</li>
+
+            <div class="section">
+                <h2>🔍 Key Evidence</h2>
+                <div class="evidence-box">
+                    <h3>✅ Written Confession</h3>
+                    <p>Agent Cora.h explicitly stated in writing that MEXC's Index Price "primarily referenced data from MEXC" on the day of liquidation - proving circular price manipulation.</p>
+                </div>
+                
+                <div class="evidence-box">
+                    <h3>✅ Price Deviation Proof</h3>
+                    <p>MEXC Fair Price: 0.24716 USDT<br>
+                    Global Market Price (Binance/OKX/TradingView): 0.2355-0.2385 USDT<br>
+                    <strong>Deviation: 128+ pips (impossible without manipulation)</strong></p>
+                </div>
+                
+                <div class="evidence-box">
+                    <h3>✅ System Modification After Complaint</h3>
+                    <p>On September 26, MEXC secretly updated their Index Price sources to include Gate.io and KuCoin - AFTER my complaint about the September 19 liquidation. This proves awareness of the problem.</p>
+                </div>
+                
+                <div class="evidence-box">
+                    <h3>✅ Contradictory Agent Statements</h3>
+                    <p>6 different agents provided 6 different versions of how Fair Price works, culminating in Cora.h's accidental confession.</p>
+                </div>
+                
+                <div class="evidence-box">
+                    <h3>✅ Insulting Compensation Offer</h3>
+                    <p>MEXC offered $20 for €235 loss (8% compensation) - proving guilt while attempting minimal settlement.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🏛️ Regulatory Actions</h2>
+                <div class="regulators-list">
+                    <div class="regulator-item">
+                        <div>
+                            <strong>🇬🇧 Financial Conduct Authority (FCA - UK)</strong><br>
+                            Case Reference: 211834872<br>
+                            Status: Under investigation
+                        </div>
+                        <span class="status-badge">ACTIVE</span>
+                    </div>
+                    <div class="regulator-item">
+                        <div>
+                            <strong>🇨🇦 Ontario Securities Commission (OSC - Canada)</strong><br>
+                            Case Reference: CAS-34276-C0X7F7<br>
+                            Status: Complaint registered
+                        </div>
+                        <span class="status-badge">CONFIRMED</span>
+                    </div>
+                    <div class="regulator-item">
+                        <div>
+                            <strong>🇧🇪 Financial Services and Markets Authority (FSMA - Belgium)</strong><br>
+                            Status: Formal complaint submitted
+                        </div>
+                        <span class="status-badge">SUBMITTED</span>
+                    </div>
+                </div>
+                <p><strong>Note:</strong> OSC confirmed that MEXC is NOT registered to operate in any Canadian province or territory.</p>
+            </div>
+
+            <div class="section">
+                <h2>⚖️ Why This Matters</h2>
+                <p>This isn't just about one trader losing €235. MEXC's written confession reveals <strong>systematic Fair Price manipulation</strong> that potentially affects thousands of traders globally.</p>
+                
+                <h3>The Manipulation Method:</h3>
+                <ul>
+                    <li>MEXC uses their own exchange prices as primary reference for "Fair Price"</li>
+                    <li>This creates circular logic: MEXC controls both the market price AND the liquidation trigger</li>
+                    <li>Traders are liquidated based on prices that deviate significantly from global markets</li>
+                    <li>When caught, MEXC offers minimal compensation (8% in this case) hoping victims accept</li>
+                </ul>
+                
+                <h3>Red Flags:</h3>
+                <ul>
+                    <li>✅ Written admission of using own exchange data for Fair Price</li>
+                    <li>✅ System modification AFTER complaint (proves awareness)</li>
+                    <li>✅ Multiple contradictory agent statements</li>
+                    <li>✅ 128+ pip deviation from global market prices</li>
+                    <li>✅ Insulting 8% compensation offer (why pay if innocent?)</li>
+                    <li>✅ Agent rotation and denial strategy after confession</li>
                 </ul>
             </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-date">September 26, 2025</div>
-                <p><strong>THE COVER-UP:</strong> MEXC silently modified Index Price sources for STBL_USDT</p>
-                <p style="color: #d32f2f; font-weight: bold;">AFTER my complaint, they changed the system to avoid future evidence</p>
-            </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-date">September 28, 2025 - 16:41 UTC</div>
-                <p><strong>THE CONFESSION:</strong> Agent Cora.h admits in writing:</p>
-                <div class="quote">
-                    "Allow us to clarify: on 2025-09-19, for STBL_USDT, the Index Price primarily referenced data from MEXC."
+
+            <div class="contact-info">
+                <h2>📞 Contact & Support</h2>
+                <p><strong>Whistleblower:</strong> Dany Gosset<br>
+                <strong>Location:</strong> Belgium (EU)<br>
+                <strong>MEXC UID:</strong> 87943988</p>
+                
+                <div class="cta-buttons">
+                    <a href="mailto:mexc.whistleblower@gmail.com" class="cta-button btn-primary">
+                        📧 Report Similar Cases
+                    </a>
+                    <a href="MEXC-Evidence-Report.pdf" class="cta-button btn-success" download>
+                        📄 Download PDF Report
+                    </a>
+                    <a href="https://x.com/molpapa" class="cta-button btn-info" target="_blank">
+                        🐦 Share on Twitter/X
+                    </a>
                 </div>
-                <p style="margin-top: 10px; font-weight: bold; color: #4caf50;">SMOKING GUN OBTAINED</p>
-            </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-date">September 29, 2025</div>
-                <p><strong>THE INSULT:</strong> Agent Florence offers $20 for $20,000 fraud</p>
-                <p><strong>MY RESPONSE:</strong> 24-hour deadline for full settlement or public exposure</p>
-            </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-date">September 30, 2025</div>
-                <p><strong>THE ESCALATION:</strong> Contacted CoinDesk with complete evidence package</p>
-                <p>Shared all documentation with major crypto media outlets</p>
-            </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-date">October 1, 2025 - 11:25 UTC</div>
-                <p><strong>THE FIREWALL:</strong> MEXC Agent Adeline responds:</p>
-                <div class="quote">
-                    "MEXC does not process payments or settlements via email, and we cannot respond to threats or ultimatums."
-                </div>
-                <p style="margin-top: 10px;">
-                    <strong>Translation:</strong> MEXC refuses to negotiate, labels legitimate whistleblowing as "threats"
+                
+                <p style="margin-top: 30px; color: #666; font-size: 0.95em;">
+                    <strong>Share this page:</strong> Help protect other traders by spreading awareness<br>
+                    <strong>Last updated:</strong> October 1, 2025
                 </p>
             </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-date">October 1, 2025 - 15:00 UTC</div>
-                <p><strong>THIS PUBLICATION:</strong> Complete evidence made public for trader protection</p>
-                <p style="color: #4caf50; font-weight: bold;">Mission accomplished: Truth exposed</p>
-            </div>
-        </div>
 
-        <div class="evidence-box">
-            <h3>🔬 TECHNICAL PROOF: The Numbers Don't Lie</h3>
-            
-            <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
-                <thead>
-                    <tr style="background: #667eea; color: white;">
-                        <th style="padding: 15px; text-align: left;">Exchange</th>
-                        <th style="padding: 15px; text-align: right;">STBL/USDT Price (Sept 19, 09:40 UTC)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="background: #f8f9fa;">
-                        <td style="padding: 12px; border-bottom: 1px solid #ddd;">Binance</td>
-                        <td style="padding: 12px; text-align: right; border-bottom: 1px solid #ddd;">0.2355 - 0.2365 USDT</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 12px; border-bottom: 1px solid #ddd;">OKX</td>
-                        <td style="padding: 12px; text-align: right; border-bottom: 1px solid #ddd;">0.2360 - 0.2370 USDT</td>
-                    </tr>
-                    <tr style="background: #f8f9fa;">
-                        <td style="padding: 12px; border-bottom: 1px solid #ddd;">TradingView</td>
-                        <td style="padding: 12px; text-align: right; border-bottom: 1px solid #ddd;">0.2365 - 0.2385 USDT</td>
-                    </tr>
-                    <tr style="background: #ffebee;">
-                        <td style="padding: 12px; font-weight: bold;">MEXC "Fair Price"</td>
-                        <td style="padding: 12px; text-align: right; font-weight: bold; color: #d32f2f;">0.24487 - 0.25695 USDT</td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            <p style="font-size: 1.15em; margin-top: 20px;">
-                <strong>Conclusion:</strong> MEXC's "Fair Price" was <span class="highlight">128+ pips (5.3%)</span> above global market consensus.
-            </p>
-            <p style="margin-top: 10px; color: #d32f2f; font-weight: bold;">
-                This deviation is statistically impossible without manipulation.
-            </p>
-        </div>
-
-        <div class="evidence-box">
-            <h3>❓ FREQUENTLY ASKED QUESTIONS</h3>
-            
-            <div style="margin-top: 20px;">
-                <h4 style="color: #667eea; margin-bottom: 10px;">Q: Why did you publish this publicly?</h4>
-                <p><strong>A:</strong> After MEXC confessed to manipulation, offered an insulting $20, then refused to negotiate, public exposure became the only option to:</p>
-                <ul style="margin-left: 30px; margin-top: 10px;">
-                    <li>Warn other traders about MEXC's practices</li>
-                    <li>Put pressure on regulatory authorities to act</li>
-                    <li>Create a permanent record that cannot be deleted</li>
-                    <li>Help other victims come forward</li>
-                </ul>
-            </div>
-            
-            <div style="margin-top: 30px;">
-                <h4 style="color: #667eea; margin-bottom: 10px;">Q: Is this legal to publish?</h4>
-                <p><strong>A:</strong> Yes. Everything published here consists of:</p>
-                <ul style="margin-left: 30px; margin-top: 10px;">
-                    <li>Official emails received from MEXC support</li>
-                    <li>Confirmations from regulatory authorities</li>
-                    <li>Publicly verifiable market data</li>
-                    <li>Personal account of documented events</li>
-                </ul>
-                <p style="margin-top: 10px;"><strong>Truth is an absolute defense against defamation claims.</strong></p>
-            </div>
-            
-            <div style="margin-top: 30px;">
-                <h4 style="color: #667eea; margin-bottom: 10px;">Q: What do you want from MEXC?</h4>
-                <p><strong>A:</strong> Originally, I demanded 20,000 USDT covering:</p>
-                <ul style="margin-left: 30px; margin-top: 10px;">
-                    <li>Direct trading losses: 231 USDT</li>
-                    <li>Investigation time: 100+ hours documented</li>
-                    <li>Regulatory coordination: 9 authorities contacted</li>
-                    <li>Reputational damage compensation</li>
-                </ul>
-                <p style="margin-top: 10px;"><strong>Now:</strong> I want the truth exposed so no other trader gets scammed the same way.</p>
-            </div>
-            
-            <div style="margin-top: 30px;">
-                <h4 style="color: #667eea; margin-bottom: 10px;">Q: Are you the only victim?</h4>
-                <p><strong>A:</strong> Absolutely not. If MEXC used self-referencing Fair Price for STBL_USDT on September 19, they likely do it for other low-liquidity pairs. <strong>You might be a victim too without knowing it.</strong></p>
-            </div>
-            
-            <div style="margin-top: 30px;">
-                <h4 style="color: #667eea; margin-bottom: 10px;">Q: What should I do if I experienced similar issues on MEXC?</h4>
-                <p><strong>A:</strong> Contact me immediately:</p>
-                <ul style="margin-left: 30px; margin-top: 10px;">
-                    <li>Email: <strong>mexc.whistleblower@gmail.com</strong></li>
-                    <li>We can coordinate evidence and file collective regulatory complaints</li>
-                    <li>Strength in numbers - more victims = more pressure on regulators</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="evidence-box" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); border: none;">
-            <h3 style="text-align: center; color: #d32f2f;">⚠️ TRADER WARNING</h3>
-            <p style="font-size: 1.2em; text-align: center; margin-top: 20px;">
-                MEXC has admitted to using self-referencing Fair Price calculations.
-            </p>
-            <p style="font-size: 1.15em; text-align: center; margin-top: 15px; font-weight: bold;">
-                Your liquidations may not be based on real market prices.
-            </p>
-            <p style="text-align: center; margin-top: 20px;">
-                <strong>Recommended action:</strong> Withdraw funds and use exchanges with transparent, multi-source index pricing.
-            </p>
-        </div>
-
-        <div class="disclaimer">
-            <h4 style="margin-bottom: 15px;">📋 Legal Disclaimer</h4>
-            <p>
+            <div class="disclaimer">
+                <strong>Legal Disclaimer & Documentation Standards</strong><br><br>
                 All information published on this page consists of factual documents obtained through official correspondence with MEXC Global Ltd and regulatory authorities. Documents are published in the public interest as a consumer protection warning. Screenshots, emails, and confirmations are authentic and unaltered. This publication does not constitute financial advice. Readers should conduct their own research and due diligence before engaging with any cryptocurrency exchange.
-            </p>
-            <p style="margin-top: 15px;">
+                <br><br>
                 <strong>Backup:</strong> This page is automatically archived on Internet Archive (Wayback Machine) to ensure permanent availability even if removed.
-            </p>
+            </div>
         </div>
 
         <footer>
-            <h3 style="color: #667eea; margin-bottom: 20px;">📞 Contact & Support</h3>
-            
-            <p style="font-size: 1.1em; margin-bottom: 15px;">
-                <strong>Whistleblower:</strong> Dany Gosset<br>
-                <strong>Location:</strong> Belgium (EU)<br>
-                <strong>MEXC UID:</strong> 87943988
-            </p>
-            
-            <div style="margin: 30px 0;">
-                <a href="mailto:mexc.whistleblower@gmail.com" class="cta-button">
-                    📧 Report Similar Cases
-                </a>
-                <a href="MEXC-Evidence-Report.pdf" class="cta-button" download style="background: #4caf50;">
-                    📄 Download PDF Report
-                </a>
-                <a href="https://x.com/molpapa" class="cta-button" style="background: #1da1f2;" target="_blank">
-                    🐦 Share on Twitter/X
-                </a>
-            </div>
-            
-            <p style="margin-top: 30px; color: #666; font-size: 0.95em;">
-                <strong>Share this page:</strong> Help protect other traders by spreading awareness<br>
-                <strong>Archive link:</strong> <a href="https://web.archive.org" target="_blank">Internet Archive</a> (permanent backup)<br>
-                <strong>Last updated:</strong> October 1, 2025
-            </p>
-            
-            <p style="margin-top: 30px; font-weight: bold; color: #667eea;">
+            <p style="font-weight: bold; color: #667eea; font-size: 1.2em; margin-bottom: 20px;">
                 "The only thing necessary for the triumph of evil is for good people to do nothing."<br>
                 — Edmund Burke
+            </p>
+            <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.8;">
+                This whistleblower report is maintained as a public service to protect cryptocurrency traders worldwide.
             </p>
         </footer>
     </div>
